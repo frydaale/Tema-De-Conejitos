@@ -6,22 +6,221 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Conejos "Criaturas Fascinantes"</h1>
-    <nav>
+    <header>
+        <h1>Conejos "Criaturas Fascinantes"</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Historia</a></li>
+                <li><a href="#">Tipos de conejitos</a></li>
+                <li><a href="#">Cuidados</a></li>
+                <li><a href="#">Alimentacion</a></li>
+                <li><a href="#">Comportamiento</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre"> 
+
+                    <label for="colorfav">color favorito</label>
+                    <input type="color" name="colorfav" id="color fav">   
+
+                    <label for="edad">Edad:</label>
+                    <input type="number" name="edad" id="edad">
+
+                    <label for="edad2">Edad:</label>
+                    <input type="range" name="edad2" id="edad2">
+
+                    <input type="date" name="fecha" id="fecha">
+                    <input type="file" name="archivo" id="archivo">
+
+                    <label for="correo">Correo:</label>
+                    <input type="email" name="correo" id="correo">
+
+                    <select  multiple  type="curso" id="curso">
+                        <option value="1">python</option>
+                        <option value="4">Julia</option>
+                        <option value="90">Rust</option>
+                    </select>
+
+            </fieldset>
+        </form>
+
+
+
+
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>carrera</th>
+                    <th>año creacion</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <th>
+                    <td>LTI</td>
+                    <td>1985</td>
+                </th>
+                <tr>
+                    <td>LA</td>
+                    <td>1994</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td> cols</td>
+                </tr>
+            </tfoot>
+        </table>
+
+
+
+
+        <table border="1">
+            <tr>
+                <th>Actividad</th>
+                <th>Lunes</th>
+                <th>martes</th>
+                <th>miercoles</th>
+                <th>jueves</th>
+                <th>viernes</th>
+
+            </tr>
+            <tr>
+                <td>ir al gym</td>
+                <td colspan="2">X</td>
+                <td></td>
+                <td colspan="2">X</td>
+            
+            </tr>
+            <tr>
+                <td>Pasear a chucho</td>
+                <td colspan="5">X</td>
+                
+            </tr>
+        </table>
+
+
+
+
+        <table border="1">
+             <tr>
+                <th>lenguaje</th>
+                <th>Creador</th>
+             </tr>
+             <tr>
+                <td>python</td>
+                <td>Guido</td>
+             </tr>
+             <tr>
+                <td>java</td>
+                <td>gosling</td>
+             </tr>
+        </table>
+     
+
+
+
+
+        <img  width="300px"  src="img.png" alt="captura de pantalla">
+        <embed src="" type="">
+
+        <audio controls src="https://www2.cs.uic.edu/~i101/SoundFiles/StarWars60.wav"></audio>
+        <video src=""></video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OD08qEXdBx4?si=bCkpZNecc6rSuLVD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+        <a href="https://www.youtube.com/">Link externo</a>
+        <a href="servicios.html">link a un documento de nuestro proyecto</a> le picas a control espacio y sale el link que quieras poner
+        <a href="minisitio/clientes.html">link documento externo de una carpeta</a>
+        <a href="#aside">Ir a una seccion del documento</a>
+        <a href="https://www.youtube.com/"target="_blank">Ir a youtube</a> (link externo)
+        <a href="tel:+815246394">llamanos &phone;</a>
+        <a href="mailto:alejandra.compian1904@gmail.com">escribenos</a>
+
+
+
+
+        <p> El examen sera revisado el <time datetime="2024/08/28T13:00"></time>dia 28 de agosto a la 13:00 hrs Lorem <abbr title="facultad de contaduria">facpya</abbr> <br> ipsum dolor sit amet, <strong>consectetur adipisicing elit</strong>. Excepturi facere, adipisci ullam quam beatae <span>molestiae</span> iusto <strong>dolorem </strong>architecto,<i> consequuntur itaque fugiat</i> neque rerum illum, <mark>el mejor libro de python</mark> es <cite>Piensa en python</cite>  non repellat pariatur sunt quos id.</p> H <sub>2</sub>0 y radio <sup>2</sup>
+
+    <small>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex odio eveniet quam ut excepturi facilis? Necessitatibus pariatur facere accusantium magnam neque esse ducimus, repellat eligendi optio modi atque, at temporibus.
+    </small>
+        <article>
+            <header>
+                <h2>historia de utiles escolares</h2>
+            </header>
+
+
+            <figure>
+                <img width="200px" src="link de imagen" alt="explicacion de imagen">
+                <figcaption>
+                    Figura 1. nimales salvajes
+                </figcaption>
+            </figure>
+            <pre>
+                
+            </pre>
+
+            <ol><li></li>
+            <li>libretas</li>
+            <li>borradores</li>
+            <li>tijeras</li>
+            <li>hojas blancas</li>
+            <li>lapiz</li>
+            <li>resistol</li>
+            <li>regla</li>
+            <li>fomi</li>
+            <li>corrector</li>
+        </ol>
         <ul>
-            <li><a href="#">Historia</a></li>
-            <li><a href="#">Tipos</a></li>
-            <li><a href="#">Cuidados</a></li>
-            <li><a href="#">Alimentacion</a></li>
-            <li><a href="#">Compoartamiento</a></li>
+            <li>primer grado</li>
+            <li>segundo grado</li>
         </ul>
-    </nav>
-    <section>
-        <h2>
-            <p>
-                El conejo se caracteriza por tener un cuerpo cubierto de un pelaje espeso y lanudo, de color pardo pálido a gris o rojizo, que permite su camuflaje para evitar a sus depredadores. Pesa entre 1,5 y 2,5 kg en estado salvaje. Tiene orejas largas de hasta 7 cm las cuales le ayudan a regular la temperatura del cuerpo y una cola muy corta. Sus patas anteriores son más cortas que las posteriores. Mide de 33 a 50 cm en condiciones afables, incluso más en razas domésticas para carne. Todas estas características que posee esta especie en estado salvaje pueden variar significativamente según la raza.Los dientes de un conejo, particularmente sus incisivos, crecen sin cesar. El conejo debe constantemente desgastar sus dientes con el fin de evitar que se vuelvan demasiado largos (lo que podría por otro lado herirle).
-            </p>
-        </h2>
-    </section>
+        <dl>
+            <dt>tijeras punta roma</dt>
+            <dd>son tijeras que no son peligrosas para los niños.</dd>
+            <dt>Borredor de migajon</dt>
+            <dd>este borrador no deja manchas...</dd>
+        </dl>
+        <div>
+            soy un div, parrafo o seccion, es para una divicion 
+        </div>
+
+        <blockquote cite="liga de la pagina">texto que agarremos de una pagina</blockquote>
+            <section>
+                <h3>los utiles de la edad....</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, autem quasi sequi sed quas illum repellendus beatae aliquid, facere ipsum laudantium quae vel quaerat error numquam soluta veritatis aperiam minus!</p>
+            </section>
+            <section>
+                <h3>encabezado</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eaque, laudantium, deleniti ex aliquam voluptatum doloremque obcaecati in omnis hic tenetur excepturi commodi. Incidunt repudiandae quos qui rem molestiae unde?</P>
+            </section>
+            <section>
+                <h3>encabezado</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolore consequuntur tempore perspiciatis sapiente excepturi quas, quasi cum deserunt sed recusandae delectus optio, dolores porro aliquid ducimus tenetur maiores unde!</P>
+            </section>
+            <footer>
+                <p>fin del articulo</p>
+                <hr>
+            </footer>
+        </article>
+    </main>
+    <aside>
+        <h2 id="aside">soy el aside</h2>
+    </aside>
+    <footer>
+        <address>
+            <p>Desarrollo por FASC</p>
+            <p>Derechos reservados &copy;</p>
+        </address>
+    </footer>
+    <script src="app.js">
+    </script>     
 </body>
 </html>
